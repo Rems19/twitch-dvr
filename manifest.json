@@ -2,7 +2,7 @@
     "name": "Twitch DVR player",
     "version": "1.4.13",
     "description": "Replaces the standard twitch player with a custom one that supports DVR.",
-    "permissions": [
+    "host_permissions": [
         "https://*.twitch.tv/*",
         "https://*.ttvnw.net/*",
         "https://dqrpb9wgowsf5.cloudfront.net/*"
@@ -23,5 +23,5 @@
         "48": "twitch-dvr@48.png",
         "128": "twitch-dvr.png"
     },
-    "manifest_version": 2
+    "manifest_version": 3
 }
